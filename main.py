@@ -1,6 +1,7 @@
 import fresh_tomatoes as ft
 from media import Movie
 
+# Making instances
 scott_pilgram = Movie("Scott Pilgrim vs The World",
     "Scott Pilgrim must defeat his new girlfriend's seven evil exes in order to win her heart",
     "https://images-na.ssl-images-amazon.com/images/I/51oQ%2B6P1vuL.jpg", 
@@ -16,6 +17,8 @@ law_abiding_citizen = Movie("Law Abiding Citizen",
     "http://cdn.collider.com/wp-content/image-base/Movies/L/Law_Abiding_Citizen/Posters/law_abiding_citizen_gerard_butler_movie_poster_01.jpg", 
     "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiDi5v0jsHaAhWMQ48KHa-SCokQyCkIJzAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLX6kVRsdXW4&usg=AOvVaw1cfS7nud1sUCW58pzmkMy7")
 
+# Listing instances
 movies = [scott_pilgram, thor, law_abiding_citizen]
 
+# Generating Website
 ft.open_movies_page(movies)
